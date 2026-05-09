@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Model artifacts (large binary files)
+model/model.pkl
+model/metrics.pkl
+
+# Dataset (download from Kaggle separately)
+data/spam.csv
+
+# VS Code
+.vscode/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
